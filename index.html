@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <title>04 • OCT — For May</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="topbar">
+    <div class="brand">FOR MAY</div>
+  </header>
+
+  <main>
+    <section class="section hero" id="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">04 • OCTOBER</p>
+        <h1>Today is<br><span>about you.</span></h1>
+        
+        <button class="primary-btn" data-next="birthday"><span>Begin</span><span class="arrow">↗</span></button>
+      </div>
+      <div class="flower-art" aria-hidden="true">
+        <div class="rose"></div>
+        <div class="tulip"><div class="tulip-head"><i></i><i></i><i></i></div><div class="stem"></div></div>
+      </div>
+    </section>
+
+    <section class="section birthday" id="birthday">
+      <div class="section-inner reveal">
+        <p class="eyebrow">FOR THE GIRL I WANTED TO CELEBRATE</p>
+        <h2>Happy Birthday,<br><span>May.</span></h2>
+        <p class="big-copy">I wanted to make you something that feels more special than a normal birthday message.</p>
+        <div class="date-card glass">
+          <span class="date-number">04</span>
+          <div><span class="date-month">OCT</span><span class="date-note">your day, every year</span></div>
+        </div>
+        <button class="text-link" data-next="flowers">keep going <span>↓</span></button>
+      </div>
+    </section>
+
+    <section class="section flowers" id="flowers">
+      <div class="section-inner two-col">
+        <div class="copy-block reveal">
+          <p class="eyebrow">A LITTLE DETAIL I REMEMBER</p>
+          <h2>Red roses.<br>Red tulips.</h2>
+          <p class="big-copy">Your favorite flowers, in your favorite color. So of course they had to be part of this.</p>
+        </div>
+        <div class="flower-cards reveal">
+          <article class="flower-card flower-card-rose">
+            <span class="card-index">01</span>
+            <div class="flower-emoji">🌹</div>
+            <h3>Red Rose</h3>
+            <p>classic, bold, unforgettable</p>
+          </article>
+          <article class="flower-card flower-card-tulip">
+            <span class="card-index">02</span>
+            <div class="flower-emoji">🌷</div>
+            <h3>Red Tulip</h3>
+            <p>simple, elegant, warm</p>
+          </article>
+        </div>
+      </div>
+      <button class="text-link lower" data-next="letter">a message for you <span>↓</span></button>
+    </section>
+
+    <section class="section letter" id="letter">
+      <div class="section-inner reveal">
+        <p class="eyebrow">A NOTE FROM ME</p>
+        <div class="letter-card glass">
+          <div class="letter-top"><span>TO MAY</span><span>04 / 10</span></div>
+          <h2>For your new year.</h2>
+          <div class="letter-copy">
+            <p>Happy Birthday To My Mommy May. I wish you have the best time in your life from now on. May you complete everything you wish for and get anything you want. I also believe that you will be a doctor who represents your family.</p>
+            <p>It’s been 3 days since we’ve started dating and a birthday of yours, what a beautiful week for us. I promise I will be with you on your upcoming birthdays. I love You Mama.</p>
+          </div>
+        </div>
+        <button class="text-link" data-next="wish">one last thing <span>↓</span></button>
+      </div>
+    </section>
+
+    <section class="section wish" id="wish">
+      <div class="section-inner final-center reveal">
+        <p class="eyebrow">BEFORE YOU LEAVE</p>
+        <h2>Make a wish.</h2>
+        <p class="wish-sub">Tap the flame when you're ready.</p>
+        <button class="candle-wrap" id="candleButton" aria-label="Blow out candle">
+          <span class="flame"></span><span class="wick"></span><span class="candle"></span>
+        </button>
+        <div class="final-message" id="finalMessage">
+          <span>Happy Birthday, May.</span>
+          <strong>I hope this year is gentle with you.</strong>
+          <p>04 • OCT ❤️</p>
+        </div>
+      </div>
+      <div id="petalLayer"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
